@@ -5,56 +5,52 @@ body{
 
 }
 
-    main{
+    main {
         display: inline-block; 
         width: 800px;
         /* reikalingas, kad pavaziuotu zemyn */
         margin-top: 100px;
     }
 
-        div{
+        div {
             width: 50%;  
             float: left;
-            }
-
-        img{
-            width:80%
-            }
-
-        h1{
-            width:100%;
-            display:inline-block;
-            font-size: 100px;
-            color: #353F49;
-            /* tarpai */
-            margin: 0;
-            /* nuo apacios pakelia */
-            margin-bottom: 20px;
-        
-            }
-
-        p{
-            width:100%;
-            display:inline-block;
-            font-size: 35px;
-            color: #4E566D;
-            margin: 0;
-            margin-bottom: 20px; 
         }
-        /* jei norime iterpti anta paragrafa, 2, 2n - kas antras */
-        p:nth-of-type(2n) {
+
+            img {
+                width:80%
+            }
+            h1 {
+                width:100%;
+                display:inline-block;
+                font-size: 100px;
+                color: #353F49;
+                /* tarpai */
+                margin: 0;
+                /* nuo apacios pakelia */
+                margin-bottom: 20px;
+            }
+            p {
+                width:100%;
+                display:inline-block;
+                font-size: 35px;
+                color: #4E566D;
+                margin: 0;
+                margin-bottom: 20px; 
+            }
+                /* jei norime iterpti anta paragrafa, 2, 2n - kas antras */
+            p:nth-of-type(2n) {
                 font-size: 18px;
                 color: #9498A3;
-        }
+            }
 
-        a{ 
-            display:inline-block;
-            background-color: #696F89; 
-            color: #ffffff;
-            padding: 20px;
-            text-decoration: none; 
-
-        }
+            a { 
+                display:inline-block;
+                background-color: #696F89; 
+                color: #ffffff;
+                padding: 20px;
+                text-decoration: none; 
+            }
 
 
 
